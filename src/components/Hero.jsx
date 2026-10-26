@@ -39,7 +39,7 @@ export default function Hero({ onOpenResume }) {
           <span className="purple-text">{typed}</span>
         </h2>
         <h5 className="year">
-          {site.name} <span className="purple-text">|</span> {site.role}
+          {site.role}
         </h5>
         <div className="hero-buttons">
           <a href="#contact" className="btn-resume">
