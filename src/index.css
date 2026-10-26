@@ -12,9 +12,9 @@
 :root {
   --bg-dark: #0b0b0b;
   --card: #0f0f0f;
-  --accent-purple: #a855f7;
-  --accent-deep: #7c3aed;
-  --accent-light: #c084fc;
+  --accent-purple: #8b5cf6;
+  --accent-deep: #6d28d9;
+  --accent-light: #a78bfa;
   --text: #ffffff;
   --muted: #9ca3af;
   --soft: #d1d5db;
@@ -144,7 +144,7 @@ section {
   top: 0; left: 0;
   width: 40px; height: 40px;
   border-radius: 50%;
-  border: 2px solid rgba(168, 85, 247, 0.55);
+  border: 2px solid rgba(139, 92, 246, 0.55);
   transition: border-color 0.18s ease;
 }
 
@@ -162,7 +162,7 @@ section {
   width: 0;
   z-index: 2100;
   background: linear-gradient(90deg, var(--accent-deep), var(--accent-purple), var(--accent-light));
-  box-shadow: 0 0 12px rgba(168, 85, 247, 0.8);
+  box-shadow: 0 0 12px rgba(139, 92, 246, 0.8);
 }
 
 /* ───────────────────── preloader ───────────────────── */
@@ -257,7 +257,7 @@ section {
   width: 0;
   border-radius: 4px;
   background: linear-gradient(90deg, var(--accent-deep), var(--accent-light));
-  box-shadow: 0 0 14px rgba(168, 85, 247, 0.9);
+  box-shadow: 0 0 14px rgba(139, 92, 246, 0.9);
 }
 
 .preloader-percent {
@@ -320,8 +320,8 @@ section {
   left: 0;
   height: 100%;
   border-radius: 999px;
-  background: linear-gradient(120deg, rgba(124, 58, 237, 0.9), rgba(168, 85, 247, 0.75));
-  box-shadow: 0 0 18px rgba(168, 85, 247, 0.45);
+  background: linear-gradient(120deg, rgba(109, 40, 217, 0.9), rgba(139, 92, 246, 0.75));
+  box-shadow: 0 0 18px rgba(139, 92, 246, 0.45);
   transition: left 0.5s cubic-bezier(0.34, 1.56, 0.64, 1),
               width 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
   pointer-events: none;
@@ -437,7 +437,7 @@ section {
 .btn-resume:hover {
   background: var(--accent-purple);
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(168, 85, 247, 0.45);
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.45);
 }
 
 .location-line {
@@ -467,7 +467,7 @@ section {
 
 .floating-icon:hover {
   border-color: var(--accent-purple);
-  box-shadow: 0 0 22px rgba(168, 85, 247, 0.5);
+  box-shadow: 0 0 22px rgba(139, 92, 246, 0.5);
 }
 
 .icon-top-left     { top: 22%; left: 8%;  animation-name: floatIcon, slideInTL; animation-delay: 0s, 0s; }
@@ -555,10 +555,10 @@ section {
   background: conic-gradient(
     from var(--angle),
     transparent 0%,
-    rgba(168, 85, 247, 0.9) 12%,
+    rgba(139, 92, 246, 0.9) 12%,
     transparent 26%,
     transparent 74%,
-    rgba(124, 58, 237, 0.9) 88%,
+    rgba(109, 40, 217, 0.9) 88%,
     transparent 100%
   );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -650,15 +650,15 @@ section {
   pointer-events: none;
   background: radial-gradient(
     800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-    rgba(168, 85, 247, 0.15),
+    rgba(139, 92, 246, 0.15),
     transparent 40%
   );
 }
 
 .experience-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(168, 85, 247, 0.6);
-  box-shadow: 0 16px 40px rgba(168, 85, 247, 0.18);
+  border-color: rgba(139, 92, 246, 0.6);
+  box-shadow: 0 16px 40px rgba(139, 92, 246, 0.18);
 }
 
 .experience-date {
@@ -675,8 +675,8 @@ section {
   margin: 26px 0 16px;
   padding: 5px 14px;
   border-radius: 999px;
-  background: rgba(168, 85, 247, 0.14);
-  border: 1px solid rgba(168, 85, 247, 0.4);
+  background: rgba(139, 92, 246, 0.14);
+  border: 1px solid rgba(139, 92, 246, 0.4);
   color: var(--accent-light);
   font-size: 0.75rem;
   font-weight: 600;
@@ -724,9 +724,9 @@ section {
   align-items: center;
   gap: 10px;
   padding: 11px 22px;
-  border: 1px solid rgba(168, 85, 247, 0.55);
+  border: 1px solid rgba(139, 92, 246, 0.55);
   border-radius: 12px;
-  background: rgba(168, 85, 247, 0.08);
+  background: rgba(139, 92, 246, 0.08);
   color: #fff;
   font-size: 0.9rem;
   font-weight: 600;
@@ -734,8 +734,8 @@ section {
 }
 
 .project-btn:hover {
-  background: rgba(168, 85, 247, 0.2);
-  box-shadow: 0 0 22px rgba(168, 85, 247, 0.45);
+  background: rgba(139, 92, 246, 0.2);
+  box-shadow: 0 0 22px rgba(139, 92, 246, 0.45);
 }
 
 .project-btn i {
@@ -789,7 +789,7 @@ section {
   background: linear-gradient(120deg, var(--accent-deep), var(--accent-purple));
   border-color: transparent;
   color: #fff;
-  box-shadow: 0 0 18px rgba(168, 85, 247, 0.45);
+  box-shadow: 0 0 18px rgba(139, 92, 246, 0.45);
 }
 
 .skillGrid {
@@ -827,7 +827,7 @@ section {
   inset: 0;
   border-radius: 16px;
   padding: 1px;
-  background: linear-gradient(140deg, rgba(255, 255, 255, 0.16), rgba(168, 85, 247, 0.55));
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.16), rgba(139, 92, 246, 0.55));
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -844,7 +844,7 @@ section {
   width: 160px; height: 160px;
   transform: translateX(-50%);
   border-radius: 42% 58% 60% 40% / 45% 40% 60% 55%;
-  background: radial-gradient(circle, rgba(168, 85, 247, 0.85), rgba(124, 58, 237, 0.35));
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.85), rgba(109, 40, 217, 0.35));
   transition: top 0.6s ease;
   pointer-events: none;
 }
@@ -910,8 +910,8 @@ section {
 
 .cert-item:hover {
   transform: translateY(-6px);
-  border-color: rgba(168, 85, 247, 0.6);
-  box-shadow: 0 18px 44px rgba(168, 85, 247, 0.18);
+  border-color: rgba(139, 92, 246, 0.6);
+  box-shadow: 0 18px 44px rgba(139, 92, 246, 0.18);
 }
 
 .cert-img-wrapper {
@@ -939,7 +939,7 @@ section {
   justify-content: center;
   gap: 8px;
   background:
-    radial-gradient(circle at 20% 20%, rgba(124, 58, 237, 0.35), transparent 55%),
+    radial-gradient(circle at 20% 20%, rgba(109, 40, 217, 0.35), transparent 55%),
     radial-gradient(circle at 80% 80%, rgba(192, 132, 252, 0.25), transparent 55%),
     #101014;
 }
@@ -987,7 +987,7 @@ section {
   color: #fff;
   font-weight: 600;
   font-size: 0.78rem;
-  background: rgba(168, 85, 247, 0.15);
+  background: rgba(139, 92, 246, 0.15);
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -1002,7 +1002,7 @@ section {
 
 .cert-overlay-link:hover {
   background: var(--accent-purple);
-  box-shadow: 0 0 24px rgba(168, 85, 247, 0.6);
+  box-shadow: 0 0 24px rgba(139, 92, 246, 0.6);
 }
 
 .cert-overlay-link i { transition: transform 0.3s ease; }
@@ -1033,9 +1033,9 @@ section {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, rgba(168, 85, 247, 0.35), #141414 70%);
+  background: radial-gradient(circle at 30% 30%, rgba(139, 92, 246, 0.35), #141414 70%);
   border: 2px solid var(--accent-purple);
-  box-shadow: 0 0 34px rgba(168, 85, 247, 0.35);
+  box-shadow: 0 0 34px rgba(139, 92, 246, 0.35);
   animation: floatProfile 6s ease-in-out infinite;
 }
 
@@ -1077,8 +1077,8 @@ section {
 
 .profile-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(168, 85, 247, 0.6);
-  box-shadow: 0 16px 40px rgba(168, 85, 247, 0.2);
+  border-color: rgba(139, 92, 246, 0.6);
+  box-shadow: 0 16px 40px rgba(139, 92, 246, 0.2);
 }
 
 .profile-icon i {
@@ -1240,7 +1240,7 @@ section {
 .resume-modal__close:hover {
   color: #fff;
   border-color: var(--accent-purple);
-  box-shadow: 0 0 16px rgba(168, 85, 247, 0.4);
+  box-shadow: 0 0 16px rgba(139, 92, 246, 0.4);
 }
 
 .resume-modal iframe {

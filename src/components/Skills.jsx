@@ -39,7 +39,7 @@ export default function Skills() {
               {isDevicon(s.icon) ? (
                 <i className={`${s.icon} colored`} aria-hidden="true" />
               ) : (
-                <i className={s.icon} aria-hidden="true" style={{ color: "#a855f7" }} />
+                <i className={s.icon} aria-hidden="true" style={{ color: "#8b5cf6" }} />
               )}
               <span>{s.name}</span>
             </div>
