@@ -81,6 +81,24 @@ export const projects = [
     link: null,
     source: "https://github.com/mujahid313v",
   },
+  {
+    date: "2K26",
+    tag: "Full-Stack SaaS",
+    name: "Invoice & Client Manager",
+    description:
+      "A small SaaS for freelancers and small businesses — manage clients, create professional invoices, download them as PDF, and track paid, unpaid, and overdue payments with an income dashboard. Live on Vercel.",
+    link: "https://invoice-manager-ebon-omega.vercel.app/",
+    source: "https://github.com/mujahid313v/invoice-manager",
+  },
+  {
+    date: "2K26",
+    tag: "Backend & Web App",
+    name: "MailBox — Email Manager",
+    description:
+      "An email management web application built with Django featuring secure user authentication and inbox organization, deployed live on Render.",
+    link: "https://email-manager-django-1.onrender.com/",
+    source: "https://github.com/mujahid313v",
+  },
 ];
 
 export const skillCategories = [
