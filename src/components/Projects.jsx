@@ -8,7 +8,7 @@ export default function Projects() {
       <h2 className="section-title" id="projects-heading">
         Projects Showcase - <span className="purple-text">What I&rsquo;ve Built!</span>
       </h2>
-      <div className="experience-grid">
+      <div className="experience-grid project-grid two-col">
         {projects.map((p, i) => (
           <Reveal key={p.name} style={{ transitionDelay: `${i * 120}ms` }}>
             <GlowCard as="article" className="experience-card">

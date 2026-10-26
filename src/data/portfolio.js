@@ -74,15 +74,6 @@ export const projects = [
   },
   {
     date: "2K26",
-    tag: "AI & Backend Systems",
-    name: "AI-Driven System & API Workflows",
-    description:
-      "High-performance RESTful API services with automated AI pipelines, safe data modeling, and role-based endpoint protection built into production flows.",
-    link: null,
-    source: "https://github.com/mujahid313v",
-  },
-  {
-    date: "2K26",
     tag: "Full-Stack SaaS",
     name: "Invoice & Client Manager",
     description:
@@ -91,7 +82,16 @@ export const projects = [
     source: "https://github.com/mujahid313v/invoice-manager",
   },
   {
-    date: "2K26",
+    date: "2K25",
+    tag: "AI & Backend Systems",
+    name: "AI-Driven System & API Workflows",
+    description:
+      "High-performance RESTful API services with automated AI pipelines, safe data modeling, and role-based endpoint protection built into production flows.",
+    link: null,
+    source: "https://github.com/mujahid313v",
+  },
+  {
+    date: "2K25",
     tag: "Backend & Web App",
     name: "MailBox — Email Manager",
     description:
