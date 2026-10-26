@@ -43,7 +43,7 @@ export default function ParticleCanvas() {
     })();
 
     const material = new THREE.PointsMaterial({
-      color: 0xa855f7,
+      color: 0xff6b2b,
       size: 2.2,
       map: sprite,
       transparent: true,
@@ -65,7 +65,7 @@ export default function ParticleCanvas() {
     const wGeometry = new THREE.BufferGeometry();
     wGeometry.setAttribute("position", new THREE.BufferAttribute(wPositions, 3));
     const wMaterial = new THREE.PointsMaterial({
-      color: 0xe9d5ff,
+      color: 0xff8a5c,
       size: 1.3,
       map: sprite,
       transparent: true,
