@@ -1,0 +1,3 @@
+.stack-section{min-height:300vh;position:relative}
+.stack-grid{position:sticky;top:90px;height:calc(100vh - 100px);min-height:0}
+@media(max-width:760px){.stack-section{min-height:0}.stack-grid{position:static;height:auto}}
